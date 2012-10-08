@@ -1,0 +1,179 @@
+<sequence-diagram version="1.0.10" icons="true">  
+  <object id="1" language="java" name="interfaces.PanelCidade" project="ProjetoFinalES" 
+    file="/ProjetoFinalES/src/interfaces/PanelCidade.java" binary="false" label="panelCidade" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="211" y="0"/>    
+    <execution id="2">      
+      <position height="819" width="94" x="5" y="117"/>    
+    </execution>  
+  </object>  
+  <object id="5" language="java" name="dao.DaoCidade" project="ProjetoFinalES" 
+    file="/ProjetoFinalES/src/dao/DaoCidade.java" binary="false" label="daoCidade" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="151" y="0"/>    
+    <execution id="4">      
+      <position height="777" width="84" x="103" y="138"/>    
+    </execution>  
+  </object>  
+  <object id="42" language="java" name="util.BancoDados" project="ProjetoFinalES" 
+    file="/ProjetoFinalES/src/util/BancoDados.java" binary="false" label="banco" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="7">      
+      <position height="21" width="0" x="0" y="159"/>    
+    </execution>    
+    <execution id="9">      
+      <position height="21" width="0" x="0" y="201"/>    
+    </execution>    
+    <execution id="13">      
+      <position height="21" width="0" x="0" y="285"/>    
+    </execution>    
+    <execution id="15">      
+      <position height="21" width="0" x="0" y="327"/>    
+    </execution>    
+    <execution id="17">      
+      <position height="21" width="0" x="0" y="369"/>    
+    </execution>  
+  </object>  
+  <object id="43" language="java" name="java.sql.DriverManager" project="ProjetoFinalES" 
+    file="C:/Program Files/Java/jre6/lib/rt.jar" binary="true" label="&lt;static&gt;" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="11">      
+      <position height="21" width="0" x="0" y="243"/>    
+    </execution>  
+  </object>  
+  <object id="44" language="java" name="java.sql.Connection" project="ProjetoFinalES" 
+    file="C:/Program Files/Java/jre6/lib/rt.jar" binary="true" label="conn" type="interface" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="19">      
+      <position height="21" width="0" x="0" y="411"/>    
+    </execution>  
+  </object>  
+  <object id="45" language="java" name="java.sql.Statement" project="ProjetoFinalES" 
+    file="C:/Program Files/Java/jre6/lib/rt.jar" binary="true" label="stmt" type="interface" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="21">      
+      <position height="21" width="0" x="0" y="453"/>    
+    </execution>    
+    <execution id="37">      
+      <position height="21" width="0" x="0" y="789"/>    
+    </execution>  
+  </object>  
+  <object id="46" language="java" name="java.sql.ResultSet" project="ProjetoFinalES" 
+    file="C:/Program Files/Java/jre6/lib/rt.jar" binary="true" label="rsV" type="interface" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="23">      
+      <position height="21" width="0" x="0" y="495"/>    
+    </execution>    
+    <execution id="25">      
+      <position height="21" width="0" x="0" y="537"/>    
+    </execution>    
+    <execution id="29">      
+      <position height="21" width="0" x="0" y="621"/>    
+    </execution>  
+  </object>  
+  <object id="47" language="java" name="entidades.Cidade" project="ProjetoFinalES" 
+    file="/ProjetoFinalES/src/entidades/Cidade.java" binary="false" label="cidade" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="27">      
+      <position height="21" width="0" x="0" y="579"/>    
+    </execution>    
+    <execution id="31">      
+      <position height="21" width="0" x="0" y="663"/>    
+    </execution>    
+    <execution id="33">      
+      <position height="21" width="0" x="0" y="705"/>    
+    </execution>    
+    <execution id="35">      
+      <position height="21" width="0" x="0" y="747"/>    
+    </execution>  
+  </object>  
+  <object id="48" language="java" name="java.io.PrintStream" project="ProjetoFinalES" 
+    file="C:/Program Files/Java/jre6/lib/rt.jar" binary="true" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="39">      
+      <position height="21" width="0" x="0" y="831"/>    
+    </execution>  
+  </object>  
+  <object id="49" language="java" name="java.io.PrintStream" project="ProjetoFinalES" 
+    file="C:/Program Files/Java/jre6/lib/rt.jar" binary="true" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="41">      
+      <position height="21" width="0" x="0" y="873"/>    
+    </execution>  
+  </object>  
+  <message id="3" operation="cadastrarCidade(entidades.Cidade):boolean">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="6" operation="BancoDados()">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="7"/>  
+  </message>  
+  <message id="8" operation="getDriver():java.lang.String">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="9"/>  
+  </message>  
+  <message id="10" operation="getConnection(java.lang.String,java.lang.String,java.lang.String):java.sql.Connection">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="11"/>  
+  </message>  
+  <message id="12" operation="getStr_conn():java.lang.String">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="13"/>  
+  </message>  
+  <message id="14" operation="getUsuario():java.lang.String">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="15"/>  
+  </message>  
+  <message id="16" operation="getSenha():java.lang.String">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="17"/>  
+  </message>  
+  <message id="18" operation="createStatement():java.sql.Statement">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="19"/>  
+  </message>  
+  <message id="20" operation="executeQuery(java.lang.String):java.sql.ResultSet">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="21"/>  
+  </message>  
+  <message id="22" operation="next():boolean">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="23"/>  
+  </message>  
+  <message id="24" operation="getString(java.lang.String):java.lang.String">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="25"/>  
+  </message>  
+  <message id="26" operation="getCidadeNome():java.lang.String">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="27"/>  
+  </message>  
+  <message id="28" operation="getString(java.lang.String):java.lang.String">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="29"/>  
+  </message>  
+  <message id="30" operation="getCidade_estadoId():int">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="31"/>  
+  </message>  
+  <message id="32" operation="getCidadeNome():java.lang.String">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="33"/>  
+  </message>  
+  <message id="34" operation="getCidade_estadoId():int">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="35"/>  
+  </message>  
+  <message id="36" operation="executeUpdate(java.lang.String):int">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="37"/>  
+  </message>  
+  <message id="38" operation="println(java.lang.String):void">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="39"/>  
+  </message>  
+  <message id="40" operation="println(java.lang.String):void">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="41"/>  
+  </message>
+</sequence-diagram>

@@ -1,0 +1,23 @@
+Relatorio do dia 01/11/2012
+
+
+
+Passageiro: Mah
+CPF: 11234567890
+Assento comprado: 1
+Viagem: São José dos Campos-SP até Itatiba-SP
+Horario de Saida: 00:00:00
+Horario de Chegada: 02:30:00
+Placa do Onibus que fez esta viagem: DJD-2343
+
+
+Passageiro: Victor
+CPF: 23456789098
+Assento comprado: 2
+Viagem: São José dos Campos-SP até Itatiba-SP
+Horario de Saida: 00:00:00
+Horario de Chegada: 02:30:00
+Placa do Onibus que fez esta viagem: DJD-2343
+
+Faturamento total do dia: 88.44
+

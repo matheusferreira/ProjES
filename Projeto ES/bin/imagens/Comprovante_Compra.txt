@@ -1,0 +1,20 @@
+Comprovante de Compra
+
+
+Origem: Atibaia
+Destino: Itatiba
+
+
+Assento:      7
+Nome Passageiro: 23456
+CPF Passageiro: 90
+
+
+
+Total da compra: 50,00Assento:      8
+Nome Passageiro: 678
+CPF Passageiro: 789
+
+
+
+Total da compra: 100,00

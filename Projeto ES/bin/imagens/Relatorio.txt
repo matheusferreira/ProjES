@@ -1,0 +1,49 @@
+Relatorio do dia 01/11/2012
+
+
+
+Passageiro: 23
+CPF: 11
+Assento comprado: 8
+Viagem: São José dos Campos-SP até Atibaia-SP
+Horario de Saida: 21:00:00
+Horario de Chegada: 22:30:00
+Placa do Onibus que fez esta viagem: WSD-7654
+
+
+
+
+Passageiro: Mah
+CPF: 11234567890
+Assento comprado: 1
+Viagem: São José dos Campos-SP até Itatiba-SP
+Horario de Saida: 00:00:00
+Horario de Chegada: 02:30:00
+Placa do Onibus que fez esta viagem: DJD-2343
+
+
+
+
+Passageiro: 34
+CPF: 23
+Assento comprado: 7
+Viagem: São José dos Campos-SP até Atibaia-SP
+Horario de Saida: 21:00:00
+Horario de Chegada: 22:30:00
+Placa do Onibus que fez esta viagem: WSD-7654
+
+
+
+
+Passageiro: Victor
+CPF: 23456789098
+Assento comprado: 2
+Viagem: São José dos Campos-SP até Itatiba-SP
+Horario de Saida: 00:00:00
+Horario de Chegada: 02:30:00
+Placa do Onibus que fez esta viagem: DJD-2343
+
+
+
+Faturamento total do dia: 108.44
+
